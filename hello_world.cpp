@@ -1,11 +1,12 @@
 ﻿#include <iostream>
 #include <string>
-using namespace std;
 
+// Р—Р°РїСЂР°С€РёРІР°РµРј РёРјСЏ РїРѕР»СЊР·РѕРІР°С‚РµР»СЏ.
 int main() {
-  cout << "Enter your name: ";
-  string name;
-  getline(cin, name);
-  cout << "Hello world from @" << name << endl;
+  std::cout << "Р’РІРµРґРёС‚Рµ РІР°С€Рµ РёРјСЏ: ";
+  std::string name;
+  std::getline(std::cin, name);
+  // РџРµС‡Р°С‚Р°РµРј РїСЂРёРІРµС‚СЃС‚РІРёРµ: Hello world from @name.
+  std::cout << "Hello world from @" << name << std::endl;
   return 0;
 }
